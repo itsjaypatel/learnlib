@@ -1,0 +1,39 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.truncate-content-line-2{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+@include media-breakpoint-up(xs){
+    .register-form{
+        margin-top: 5%;
+    }
+    .login-form{
+        margin-top: 5%;
+    }
+    .profile-form{
+        margin-top: 5%;
+    }
+}
+
+@include media-breakpoint-up(md){
+    .register-form{
+        width: 50%;
+    }
+    .login-form{
+        width: 50%;
+    }
+    .profile-form{
+        width: 50%;
+    }
+    .space-card{
+        width: 18rem;
+    }
+    .student-list-container{
+        width: 40%;
+    }
+}
